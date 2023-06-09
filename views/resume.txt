@@ -1,0 +1,18 @@
+Resume
+
+Name - prabhjot singh
+
+contact:
+
+Mobile - +1(647)-000-0000
+E-mail - prabh28868@gmail.com
+
+Education - Software engineering technician(Centennial college)
+
+Skills:
+
+1.)C#
+2.)Java
+3.)Full stack web developer
+4.)Unix/Linux
+
