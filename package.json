@@ -1,0 +1,26 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "prabhjot singh",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prabh0274/prabh-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Prabh0274/prabh-portfolio/issues"
+  },
+  "homepage": "https://github.com/Prabh0274/prabh-portfolio#readme",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "node": "^20.2.0",
+    "nodemon": "^2.0.22"
+  }
+}

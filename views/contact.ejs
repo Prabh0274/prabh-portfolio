@@ -1,0 +1,67 @@
+<!-- Student name - prabhjot singh, student-id - 301273101 -->
+<%- include("partials/header")-%>
+    <h3>Enter your Information below:</h3>
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td>prabhjot</td>
+        </tr>
+        <tr>
+            <td>Last name</td>
+            <td>singh</td>
+        </tr>
+        <tr>
+            <td>Contact number</td>
+            <td>437-(556)-2254</td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><a href="mailto:prabh28868@gmail.com">prabh28868@gmail.com</a></td>
+        </tr>
+        <tr>
+            <td>GitHub</td>
+            <td><a href="https://github.com/Prabh0274/COMP229">Click Here.</a></td>
+        </tr>
+        
+        
+    </table>
+    <br>
+    <h3>Enter your Information here:</h3>
+    <form action="/">
+        <div>
+            <label>First name</label>
+            <input type="text" placeholder="Prabh" value="" required>
+        </div>
+        <div>
+            <label>Last name</label>
+            <input type="text" value="" placeholder="Singh" required>
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" placeholder="example@gmail.com" required>
+        </div>
+        <div>
+            <label>City</label>
+            <input type="text" placeholder="Scarborough" required>
+        </div>
+        <div>
+            <label> Choose Province</label>
+            <select required>
+            <option selected value="">..</option>
+            <option>ON</option>
+            <option>OT</option>
+            <option>NB</option>
+            <option>QB</option>
+          </select>
+        </div>
+        <div>
+            <label>Zip code</label>
+            <input type="text" required>
+        </div>
+        <br>
+        <div>
+            <button type="Submit">Submit form</button>
+            <button type="Reset">Reset</button>
+        </div>
+    </form>
+    <%- include("partials/footer")-%>
